@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- linking daisy and tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawasome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    
+   <header class="container mx-auto my-3">
+    <div class="bg-[#F9F6E2;] flex max-md:flex-col items-center space-y-6">
+        <div class="flex-1 text-center">
+            <p class="text-black">---SALE FEVER---</p>
+            <h1 class="text-black font-extrabold text-3xl">Purchase TK 200 or <br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+            <p class="my-2 text-black">Use Promo Code <span class="p-1 rounded-md ml-1 bg-[#E527B2] text-white text-xl font-bold">SELL200</span></p>
+        </div>
+        <div class="flex-1 h-[70%]">
+            <img class="w-[80%] mx-auto" src="./images/Summer 1.png" alt="">
+        </div>
+       
+    </div>
+    
+   </header>
+   <main>
+    <section class="container mx-auto my-3 flex max-md:flex-col">
+        
+            <div class=" max-md:w-full w-[70%]">
+                <div>
+                    <div class="max-md:text-center">
+                        <h1 class="font-bold text-2xl text-white my-3">Kitchen king</h1>
+                    </div>
+                    <div  class="grid gap-4 grid-cols-3 max-md:grid-cols-1">
+                        <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">K. Accessories</h2>
+                              <p><span>39.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                          <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">K. Accessories</h2>
+                              <p><span>25.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                          <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Home Cooker</h2>
+                              <p><span>49.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                
+                    <div  class="max-md:text-center">
+                        <h1 class="font-bold text-2xl text-white my-3">Sports Products</h1>
+                    </div>
+                    <div class="grid gap-4 grid-cols-3 max-md:grid-cols-1">
+                        <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod4.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Sports Back Cap</h2>
+                              <p><span>49.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                          <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod5.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Full Jersey Set</h2>
+                              <p><span>69.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                          <div onclick="handleClick(this)" class="card bg-base-100 shadow-xl bg-yellow-50 p-5">
+                            <figure class="px-2 pt-10 w-[60%] mx-auto bg-[#F3F3F3]">
+                              <img src="/images/prod6.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="flex  mx-auto my-2">
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                                <i class="fa fa-star p-1"></i>
+                              </div>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Sports cates</h2>
+                              <p><span>159.00</span> TK</p>
+                             
+                            </div>
+                          </div>
+                         
+                          </div>
+                    </div>
+                </div>
+               
+                
+
+            </div>
+            <div class="w-[30%] max-md:w-full pt-10 text-center mt-5">
+                <div class="bg-slate-300 p-3 w-[90%] mx-auto rounded-md">
+                    <h1 class="my-2">Have A Cupon ?</h1>
+                    <input id="cupon" type="text"  placeholder="Cupon Code" class="input input-bordered input-secondary w-full max-w-xs" />
+                    <button  id="cuponBtn" class="bg-[#E527B2] text-white p-3 rounded-md  mt-2 ">Apply</button>
+                </div>
+               <div  id="subSection" class="my-2"></div>
+                <div class="my-5">
+                    <hr class="w-[60%] mx-auto my-3">
+                    <h1>Total Price : <span id="totalPrice">00.00</span> Tk</h1>
+                    <h1>Discount-price : <span id="discount">00.00</span> Tk</h1>
+                    <h1>Total  : <span id="total">00.00</span> Tk</h1>
+                    <hr class="w-[60%] mx-auto my-3">
+                </div>
+
+                
+                <button id="buyBtn" class="w-[80%] bg-[#E527B2] text-white font-bold text-xl p-2 rounded-xl"  onclick="my_modal_2.showModal()">Purchase Now</button>
+                <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                  <form method="dialog" class="modal-box">
+
+                      <img class="ml-[150px]" src="images/congo.png" alt="">
+                      <h3 class="font-bold text-lg">Congratulations</h3>
+                      <p class="py-4">Your Purchase the product</p>
+
+
+                      <div class="modal-action justify-center ">
+
+                          <button onclick="refreshPage()" class="btn bg-[#E527B2] px-8 py-2 mt-3 text-white rounded-lg "> 
+                                  Go Home </button>
+                      </div>
+                  </form>
+              </dialog>
+                
+            </div>
+            
+
+    
+
+    </section>
+   </main>
+<script src="index.js"></script>
+</body>
+</html>
